@@ -1,0 +1,8 @@
+<% include header %>
+<h1 class="text-center"><%= areThereClouds %></h1>
+<% if(isCloudyBoolean === true) { %>
+    <img src="/images/clouds_yes.jpg">
+<% } else if(isCloudyBoolean === false) { %>
+    <img src="/images/clouds_no.jpg">
+<% } %>
+<% include footer %>
